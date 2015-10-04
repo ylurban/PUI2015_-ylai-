@@ -6,5 +6,5 @@ In this research, we question if there is a significant difference between the m
 We define the null hypothesis as: There is no difference in the average trip duration of subscribers in summer months as compared to the winter months. Significance level α=0.05.
 
 ### Responsibility in Collaboration 
-In this collaboration I worked on development of the null hypothesis and the code, including data reading, restrucutre, cleanning (to exclude trip duration outliers), data plotting, and hypothesis testing (z-score testing and t-statistics).
+In this collaboration I worked on development of the null hypothesis and the code, including data reading, restrucutring, cleanning (to exclude trip duration outliers), data plotting, and hypothesis testing (z-score testing and t-statistics).
 Part of the code development were through co-working by me (Yuan Lai) and Sachin Verma.
