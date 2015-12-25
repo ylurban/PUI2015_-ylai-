@@ -1,0 +1,67 @@
+the reviews were fine, although hey could have been more detailed. but you took the time to look at the code, which makes up for it
+
+10/10
+NOTES ON YOUR PLOT
+===================
+
+
+the majority of the datapoints are in blue, but blue is not in the legend, thus i do not know what the majority if what is plotted is.
+
+the different size is not explained ( i think it is in the title but the syntax is not understandable. "Size = land area" should be a label somewhere).
+
+the tick labels are too small and the x notation (python default) should be changes to something more readable: for example plotting in units of 10^7 which is what python defaults to but including the 10^7 in the caption as "population size in units of 10 millions" or plotting in 10^6 as "population size (millions)"
+
+the plot should be in log scale so differences in the x axis away from 9 could be seen (since this must be the most important data in the plot seen as it is in different color)
+
+Ton-> Tons
+
+
+
+
+
+
+NOTES ON THE PLOTS YOU REVIEWED
+===========================================
+
+
+ndw245
+============
+
+
+
+good colorblind-safe choice of color
+
+side by side histogram helps comparison
+
+it is not clear why the choice of overtime cut is different since the "overtime" for costumers seem to be a very large number. but it may be a necessary choice (i.e. it is possible that the data did not offer the information) in which case however it may have been better to include all >30 minutes trips in a single bin for customers as well
+
+labels are readable (minutes could be a bit larger font)
+
+
+
+
+pnk230
+============
+
+
+3D does not help clarity: the height of the three classes is hard to compare while difference between the years are negligible, effectively undetectable by eye (which is why you needed the number at the top)
+
+nicely color blind compliant
+
+the transparency helps readability avoiding obstruction
+
+
+
+YifanXie520
+============
+
+Colors are indistinguishable for color blind people
+
+tick labels are too small
+
+
+it would be nice if it said "basketball" somewhere, and had the date of the data
+
+the points are too small resulting in a lot of empty space (remember tufte's rules) and the points at 0 are chopped by the axis: an offset should be provided
+
+otherwise clear and not misleading
